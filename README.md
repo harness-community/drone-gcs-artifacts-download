@@ -1,5 +1,5 @@
 # drone-gcs-artifacts-download
-This plugin is designed to download objects/artifacts from a GCS bucket. The primary goal of this plugin is to use GCP CLI to authenticate into an GCP account and download objects from a storage bucket.
+This plugin is designed to download objects/artifacts from a GCS bucket. The primary goal of this plugin is to use GCP CLI to authenticate into a GCP account and download objects from a storage bucket.
 
 ## Build and Run using terminal
 
