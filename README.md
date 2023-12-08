@@ -38,7 +38,7 @@ In Harness CI, the following YAML can be used to implement the plugin as a step
                   identifier: dronegcsartifactsdownload
                   spec:
                     connectorRef: account.harnessImage
-                    image: harnesscommunity/drone-gcs-artifacts-download
+                    image: harnesscommunitytest/drone-gcs-artifacts-download
                     settings:
                       gcp_service_account_key: <+secrets.getValue("gcpserviceaccountkey")>
                       gcs_bucket_name: mybucket
